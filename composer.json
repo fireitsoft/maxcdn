@@ -1,0 +1,12 @@
+{
+    "name": "fireitsoft/maxcdn",
+    "description": "Provides access to affliate networks.",
+    "authors": [
+        {
+            "name": "Nastase Alexandru",
+            "email": "admin@themovieclips.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
