@@ -4,7 +4,7 @@
 Installation 
 
 ```php
-    composer require fireitsoft/laravel-maxcdn
+    composer require fireitsoft/maxcdn
 ```
 
 Set your credential in env file.
@@ -18,15 +18,15 @@ MAXCDN_SECRET=
 
 Usage:
 
-##YourController.php
+In your controller ##YourController.php
 
 ```php
-use FireItSoft\MaxCDN\MaxCDN;
+use FireItSoft\MaxCdn\MaxCdn;
 ```
  
 ## Usage
 ```php
-$cdn = new MaxCDN();
+$cdn = new MaxCdn();
 $cdn->delete('/zones/pull.json/{zone-id}/cache', [
     'file' => '/test.jpg'
 ]);
