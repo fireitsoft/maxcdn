@@ -1,7 +1,7 @@
 {
     "name": "fireitsoft/maxcdn",
     "keywords": ["maxcdn", "laravel"],
-    "description": "Provides access to affliate networks.",
+    "description": "Provides REST API for MaxCDN.",
     "license": "MIT",
     "authors": [
         {
