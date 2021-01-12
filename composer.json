@@ -1,6 +1,8 @@
 {
     "name": "fireitsoft/maxcdn",
+    "keywords": ["maxcdn", "laravel"],
     "description": "Provides access to affliate networks.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nastase Alexandru",
@@ -8,5 +10,28 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "FireItSoft\\MaxCdn\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FireItSoft\\MaxCdn\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "FireItSoft\\MaxCdn\\MaxCdnServiceProvider"
+            ],
+            "aliases": {
+                "MaxCdn": "FireItSoft\\MaxCdn\\Facades\\MaxCdn"
+            }
+        }
+    }        
 }
